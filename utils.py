@@ -126,7 +126,7 @@ def configure(args):
         'num_propagation_rounds': 2,
         'lr': 1e-4,
         'dropout': 0.2,
-        'nepochs': 3,
+        'nepochs': 400,
         'batch_size': 1,
     }
     args.update(configure)

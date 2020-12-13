@@ -21,7 +21,7 @@ pip install torch
 Następnie z terminala należy uruchomić komendy: 
 
 ```
-python train.py -d ChEMBL -o canonical -w 1
+python train.py -d ZINC -o random -w 1
 ```
 
 Obecnie ilośc epok ustawiona jest na 3, w przypadku kiedy trening zajmowałby zbyt dużo czasu
@@ -30,5 +30,12 @@ liczbę tę można zmienić w pliku utils.py w linii 129.
 Po zakończonym treningu należy wykonać evaluację przy użyciu następującej komendy
 
 ```
-python eval.py -d ChEMBL -o canonical -p ./training_results/
+python eval.py -d ZINC -o random -p ./training_results/{training result directory}
+```
+
+##Wykorzystanie wytrenowanego modelu
+
+Komenda do skorzystania z wytrenowanego wcześniej modelu
+```
+python eval.py -d ZINC -o random -pr
 ```
