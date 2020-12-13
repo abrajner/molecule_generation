@@ -1,0 +1,16 @@
+seed	0
+dataset	ZINC
+order	random
+log_dir	./eval_results/ZINC_random_2020-12-13_19-44-58
+model_path	None
+pretrained	1
+num_samples	100000
+max_num_steps	400
+num_processes	10
+generation_time	600
+node_hidden_size	128
+num_propagation_rounds	2
+lr	0.0001
+dropout	0.2000
+nepochs	400
+batch_size	1

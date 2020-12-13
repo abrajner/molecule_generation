@@ -123,7 +123,7 @@ if __name__ == '__main__':
                         help='order to generate graphs, used for naming evaluation directory')
 
     # log
-    parser.add_argument('-l', '--log-dir', defauleval_resultst='./eval_results',
+    parser.add_argument('-l', '--log-dir', default='./eval_results',
                         help='folder to save evaluation results')
 
     parser.add_argument('-p', '--model-path', type=str, default=None,

@@ -1,0 +1,4 @@
+Total number of generated molecules: 1477
+Validity among all: 0.1754
+Uniqueness among valid ones: 0.9961
+Novelty among unique ones: 1.0000
