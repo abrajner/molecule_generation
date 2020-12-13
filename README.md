@@ -1,9 +1,11 @@
-#Projekt zaliczeniowy - Studio projektowe 2 
+# Projekt zaliczeniowy - Studio projektowe 2 
+
 skład zespołu: Alicja Brajner, Krzysztof Pala 
 
 źródło kodu: https://github.com/awslabs/dgl-lifesci/tree/master/examples/generative_models/dgmg
 
-##Przygotowanie środowiska
+## Przygotowanie środowiska
+
 Do uruchomienia projektu konieczne są cztery biblioteki: rdkit, dgllife, dgl, torch.
 
 Powinny zostać zaainstalowane w wirtualnym środowisku za pomocą następujących komend: 
@@ -17,7 +19,8 @@ pip install dgl
 pip install torch
 ```
 
-##Uruchomienie projektu 
+## Uruchomienie projektu 
+
 Następnie z terminala należy uruchomić komendy: 
 
 ```
@@ -33,7 +36,7 @@ Po zakończonym treningu należy wykonać evaluację przy użyciu następującej
 python eval.py -d ZINC -o random -p ./training_results/{training result directory}
 ```
 
-##Wykorzystanie wytrenowanego modelu
+## Wykorzystanie wytrenowanego modelu
 
 Komenda do skorzystania z wytrenowanego wcześniej modelu
 ```
